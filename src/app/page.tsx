@@ -214,18 +214,18 @@ export default function Home() {
       <center><button className=" w-[40%] sm:w-[16%] h-[48px] border-2 rounded-full my-16">View All</button></center>
       
       
-      <div className="bg-gray-100 border-0 rounded-3xl w-[80%] ml-[10%] my-10 py-10">
+      <div className="bg-gray-100 border-0 rounded-3xl w-[90%] ml-[5%] my-10 py-10">
         <center><h1 className="text-5xl font-extrabold py-14">BROWSE BY DRESS STYLE</h1></center>
-        <div className="flex flex-wrap w-[70%] ml-[4%]">
-          <Image className="ml-[16%] sm:ml-0 sm:w-[60%] border-0 rounded-lg my-2 sm:my-0" src={fram1}
+        <div className="flex flex-wrap w-[80%] ml-[4%]">
+          <Image className=" ml-0 w-[50%] border-0 rounded-lg my-2 sm:my-0" src={fram1}
             alt="fram"></Image>
-          <Image className="ml-[16%] sm:w-[80%] border-0 rounded-lg sm:ml-6 my-2 sm:my-0" src={fram2}
+          <Image className=" w-[50%] border-0 rounded-lg ml-1 my-2 sm:my-0" src={fram2}
             alt="fram"></Image>
         </div>
         <div className="flex flex-wrap w-[70%] ml-[4%] my-6 ">
-          <Image className="ml-[16%] sm:ml-0 sm:w-[80%] border-0 rounded-lg my-2 sm:my-0" src={fram3}
+          <Image className="ml-[10%] sm:ml-0 w-[80%] border-0 rounded-lg my-2 sm:my-0" src={fram3}
             alt="fram"></Image>
-          <Image className="ml-[16%] sm:ml-0 sm:w-[60%] border-0 rounded-lg ml-6 my-2 sm:my-0" src={fram4}
+          <Image className="ml-[10%] sm:ml-0 w-[60%] border-0 rounded-lg  my-2 sm:my-0" src={fram4}
             alt="fram"></Image>
         </div>
       </div>

@@ -17,7 +17,7 @@ const Nav = () => {
     <div className='flex justify-between items-center flex-wrap p-4'>
       {/* Logo Section */}
       <div>
-        <h1 className='font-bold text-[24px]'>Bandage</h1>
+        <h1 className='px-5 ml-10 font-extrabold text-[35px]'>SHOP.CO</h1>
       </div>
 
       {/* Left Side Icons and Hamburger */}
@@ -39,12 +39,11 @@ const Nav = () => {
           menuOpen ? 'flex' : 'hidden'
         } lg:flex flex-col lg:flex-row lg:gap-4 absolute lg:static top-16 left-0 lg:top-0 bg-white lg:bg-transparent w-full lg:w-auto z-10 shadow-lg lg:shadow-none`}
       >
-        <Link href="./" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">Home</Link>
+        
         <Link href="./shop" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">Shop</Link>
-        <Link href="./about" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">About</Link>
-        <Link href="./blog" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">Blog</Link>
-        <Link href="./contact" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">Contact</Link>
-        <Link href="./pages" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">Pages</Link>
+        <Link href="./on sale" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">On Sale</Link>
+        <Link href="./new arrivals" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">New Arrivals</Link>
+        <Link href="./brands" className="hover:text-gray-900 py-2 px-4 lg:py-0 text-center">Brands</Link>
       </nav>
 
       {/* Action Icons */}
