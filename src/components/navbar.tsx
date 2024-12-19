@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { FiSearch, FiShoppingCart, FiUser } from "react-icons/fi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { block } from "sharp";
+
 
 
 const Navbar = () => {
