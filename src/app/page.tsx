@@ -27,9 +27,9 @@ export default function Home() {
       <div className="flex flex-wrap w-[100%] my-3 border-2  bg-gray-100">
 
         <div className="sm:w-[45%]  pl-[10%] pt-[5%]">
-          <h1 className="text-2xl sm:text-6xl font-bold py-4">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+          <h1 className="text-2xl sm:text-6xl  py-4 font-extrabold">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
           <p className="text-gray-400 text-sm py-4">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-          <button className="bg-gray-950 text-white border-0 rounded-full w-[50%] ml-[20%] sm:ml-0 sm:w-[120px] h-[48px] py-4 my-4 sm:my-0">SHOP NOW</button>
+          <button className="bg-gray-950 text-white border-0 rounded-full sm:w-[210px]  ml-[20%] sm:ml-0 w-[120px] h-[52px] py-4 my-4 sm:my-0">Shop N</button>
         </div>
         <Image className="sm:w-[40%]  ml-[5%]" src={banner}
           alt="banner"></Image>
@@ -216,16 +216,18 @@ export default function Home() {
       
       <div className="bg-gray-100 border-0 rounded-3xl w-[90%] ml-[5%] my-10 py-10">
         <center><h1 className="text-5xl font-extrabold py-14">BROWSE BY DRESS STYLE</h1></center>
-        <div className="flex flex-wrap w-[80%] ml-[4%]">
-          <Image className=" ml-0 w-[50%] border-0 rounded-lg my-2 sm:my-0" src={fram1}
+        <div className="flex flex-wrap w-[95%] ml-[6%] -my-4">
+          <Image className=" ml-0 w-[90%]  md:w-[30%]  border-0 rounded-lg my-6 sm:my-6 md:my-6" src={fram1}
             alt="fram"></Image>
-          <Image className=" w-[50%] border-0 rounded-lg ml-1 my-2 sm:my-0" src={fram2}
+          <Image className=" w-[90%]  md:w-[60%]  border-0 rounded-lg md:ml-5 my-2 sm:my-6 md:my-6" src={fram2}
             alt="fram"></Image>
         </div>
-        <div className="flex flex-wrap w-[70%] ml-[4%] my-6 ">
-          <Image className="ml-[10%] sm:ml-0 w-[80%] border-0 rounded-lg my-2 sm:my-0" src={fram3}
+        <div className="flex flex-wrap w-[95%] ml-[6%]  ">
+         
+           <Image  className=" w-[90%]  md:w-[60%] border-0 rounded-lg md:ml-0 my-2 sm:my-6 md:my-6 " src={fram3}
             alt="fram"></Image>
-          <Image className="ml-[10%] sm:ml-0 w-[60%] border-0 rounded-lg  my-2 sm:my-0" src={fram4}
+          
+                 <Image className=" ml-0 md:ml-5 w-[90%]  md:w-[30%] border-0 rounded-lg my-6 sm:my-4 md:my-6" src={fram4}
             alt="fram"></Image>
         </div>
       </div>

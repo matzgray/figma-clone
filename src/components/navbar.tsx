@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FiSearch, FiShoppingCart, FiUser } from "react-icons/fi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { block } from "sharp";
 
 
 const Navbar = () => {
@@ -23,9 +24,9 @@ const Navbar = () => {
       {showTopBar && (
         <div className="bg-black text-white text-center p-2 flex justify-between items-center">
           <p className="flex-grow text-center">Welcome! Sign up now for exclusive deals.</p>
-          <button
+          <button 
             onClick={handleHideTopBar}
-            className="text-white px-4 py-1 hover:text-gray-400"
+            className="text-white px-4 py-1 hover:text-gray-400 hidden sm:block"
           >
             ✕
           </button>
