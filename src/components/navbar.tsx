@@ -47,7 +47,7 @@ const Navbar = () => {
           >
             {isMobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
           </button>
-          <div className="text-black font-extrabold text-4xl pl-10">SHOP.CO</div>
+          <div className="text-black font-extrabold text-2xl md:text-4xl sm:pl-10">SHOP.CO</div>
         </div>
 
         {/* Center - Links & Search */}
@@ -75,9 +75,9 @@ const Navbar = () => {
 
           {/* Other Links */}
           <div className="flex flex-col lg:flex-row lg:space-x-4 px-4 lg:px-0">
-            <a href="./" className="hover:text-gray-600">Sale</a>
-            <a href="./casual" className="hover:text-gray-600">New Arrivals</a>
-            <a href="./productDetail" className="hover:text-gray-600">Brands</a>
+            <a href="/" className="hover:text-gray-600">Sale</a>
+            <a href="/casual" className="hover:text-gray-600">New Arrivals</a>
+            <a href="/productDetail" className="hover:text-gray-600">Brands</a>
           </div>
         </div>
         {/* Search Box */}
@@ -98,6 +98,9 @@ const Navbar = () => {
 
         {/* Right Side - Cart & Login */}
         <div className="flex items-center space-x-4">
+        <button className="flex items-center text-black hover:text-gray-600">
+        <Link href={"./cart"}> <FiSearch className="text-xl lg:hidden" /></Link>
+        </button>
           <button className="flex items-center text-black hover:text-gray-600">
             <Link href={"./cart"}> <FiShoppingCart className="text-xl" /></Link>
            

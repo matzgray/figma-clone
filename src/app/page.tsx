@@ -26,12 +26,12 @@ export default function Home() {
     <div>
       <div className="flex flex-wrap w-[100%] my-3 border-2  bg-gray-100">
 
-        <div className="sm:w-[45%]  pl-[10%] pt-[5%]">
+        <div className="sm:w-[90%]  pl-[10%] pt-[5%]">
           <h1 className="text-2xl sm:text-6xl  py-4 font-extrabold">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
           <p className="text-gray-400 text-sm py-4">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
           <button className="bg-gray-950 text-white border-0 rounded-full sm:w-[210px]  ml-[20%] sm:ml-0 w-[120px] h-[52px] py-4 my-4 sm:my-0">Shop N</button>
         </div>
-        <Image className="sm:w-[40%]  ml-[5%]" src={banner}
+        <Image className="sm:w-[80%]  ml-[5%]" src={banner}
           alt="banner"></Image>
       </div>
       <div className="bg-gray-950 flex flex-wrap justify-evenly sm:h-36 p-16 ">
