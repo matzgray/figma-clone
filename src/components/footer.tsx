@@ -4,7 +4,7 @@ import footerpic from "../../public/Frame 53.png"
 export default function Footer() {
     return (
         <div>
-            <footer className="footer bg-base-200 text-base-content p-10 flex flex-wrap justify-evenly bg-gray-100">
+            <footer className="footer bg-base-200 text-base-content p-10 flex flex-wrap justify-evenly bg-gray-100 ">
                 <aside>
                  <h1 className="text-4xl font-extrabold py-2 ">SHOP.CO</h1>
                     <p className="py-4">

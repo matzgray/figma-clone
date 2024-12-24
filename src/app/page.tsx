@@ -212,8 +212,8 @@ export default function Home() {
       </div>
 
       <center><button className=" w-[40%] sm:w-[16%] h-[48px] border-2 rounded-full my-16">View All</button></center>
-      
-      
+
+
       <div className="bg-gray-100 border-0 rounded-3xl w-[90%] ml-[5%] my-10 py-10">
         <center><h1 className="text-5xl font-extrabold py-14">BROWSE BY DRESS STYLE</h1></center>
         <div className="flex flex-wrap w-[95%] ml-[6%] -my-4">
@@ -223,38 +223,38 @@ export default function Home() {
             alt="fram"></Image>
         </div>
         <div className="flex flex-wrap w-[95%] ml-[6%]  ">
-         
-           <Image  className=" w-[90%]  md:w-[60%] border-0 rounded-lg md:ml-0 my-2 sm:my-6 md:my-6 " src={fram3}
+
+          <Image className=" w-[90%]  md:w-[60%] border-0 rounded-lg md:ml-0 my-2 sm:my-6 md:my-6 " src={fram3}
             alt="fram"></Image>
-          
-                 <Image className=" ml-0 md:ml-5 w-[90%]  md:w-[30%] border-0 rounded-lg my-6 sm:my-4 md:my-6" src={fram4}
+
+          <Image className=" ml-0 md:ml-5 w-[90%]  md:w-[30%] border-0 rounded-lg my-6 sm:my-4 md:my-6" src={fram4}
             alt="fram"></Image>
         </div>
       </div>
 
-<div className="my-10 w-[80%] ml-[10%]">
-  <h1 className="text-2xl sm:text-5xl font-extrabold py-10 ml-[20%] sm:ml-0">
-OUR HAPPY CUSTOMERS
-  </h1>
-  <div className="flex flex-wrap justify-between  py-10 ml[10%]">
-    <Image className="sm:w-[30%] my-2" src={cumtomer1}
-    alt="cumtomer"></Image>
-    <Image className="sm:w-[30%] my-2" src={cumtomer2}
-    alt="cumtomer"></Image>
-    <Image className="sm:w-[30%] my-2" src={cumtomer3}
-    alt="cumtomer"></Image>
-  </div>
-</div>
+      <div className="my-10 w-[80%] ml-[10%]">
+        <h1 className="text-2xl sm:text-5xl font-extrabold py-10 ml-[20%] sm:ml-0">
+          OUR HAPPY CUSTOMERS
+        </h1>
+        <div className="flex flex-wrap justify-between  py-10 ml[10%]">
+          <Image className="sm:w-[30%] my-2" src={cumtomer1}
+            alt="cumtomer"></Image>
+          <Image className="sm:w-[30%] my-2" src={cumtomer2}
+            alt="cumtomer"></Image>
+          <Image className="sm:w-[30%] my-2" src={cumtomer3}
+            alt="cumtomer"></Image>
+        </div>
+      </div>
 
 
-<div className="w-[80%] bg-gray-950  border-0 rounded-3xl my-10 py-10 flex flex-wrap ml-[10%] justify-between ">
-  <h1 className="text-white text-2xl sm:text-4xl font-extrabold sm:w-[50%] pl-[6%] pt-4">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
-  <div className=" pr-[6%]">
-    <button className="text-gray-500 border-0 rounded-full w-[90%] sm:w-[80%] h-[48px] bg-white ml-5 sm:ml-20 my-4 sm:my-2">Enter Your Email Adress</button>
-    <button className="text-gray-500 border-0 rounded-full w-[90%] sm:w-[80%] h-[48px] bg-white ml-5 sm:ml-20 my-4 sm:my-2">Subscribe To Newsletter</button>
-  </div>
+      <div className="w-[80%] bg-gray-950  border-0 rounded-3xl my-10 py-10 flex flex-wrap ml-[10%] justify-between ">
+        <h1 className="text-white text-2xl sm:text-4xl font-extrabold sm:w-[50%] pl-[6%] pt-4">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+        <div className=" pr-[6%]">
+          <button className="text-gray-500 border-0 rounded-full w-[90%] sm:w-[80%] h-[48px] bg-white ml-5 sm:ml-20 my-4 sm:my-2">Enter Your Email Adress</button>
+          <button className="text-gray-500 border-0 rounded-full w-[90%] sm:w-[80%] h-[48px] bg-white ml-5 sm:ml-20 my-4 sm:my-2">Subscribe To Newsletter</button>
+        </div>
 
-</div>
+      </div>
 
     </div>
   );

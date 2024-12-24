@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FiSearch, FiShoppingCart, FiUser } from "react-icons/fi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Link from "next/link";
 
 
 
@@ -23,7 +24,7 @@ const Navbar = () => {
       {/* Top Bar */}
       {showTopBar && (
         <div className="bg-black text-white text-center p-2 flex justify-between items-center">
-          <p className="flex-grow text-center">Welcome! Sign up now for exclusive deals.</p>
+          <p className="flex-grow text-center text-xs md:text-base mx-auto pl-14">Welcome! Sign up now for exclusive deals.</p>
           <button 
             onClick={handleHideTopBar}
             className="text-white px-4 py-1 hover:text-gray-400 hidden sm:block"
@@ -74,9 +75,9 @@ const Navbar = () => {
 
           {/* Other Links */}
           <div className="flex flex-col lg:flex-row lg:space-x-4 px-4 lg:px-0">
-            <a href="#" className="hover:text-gray-600">Sale</a>
-            <a href="#" className="hover:text-gray-600">New Arrivals</a>
-            <a href="#" className="hover:text-gray-600">Brands</a>
+            <a href="./" className="hover:text-gray-600">Sale</a>
+            <a href="./casual" className="hover:text-gray-600">New Arrivals</a>
+            <a href="./productDetail" className="hover:text-gray-600">Brands</a>
           </div>
         </div>
         {/* Search Box */}
@@ -98,7 +99,8 @@ const Navbar = () => {
         {/* Right Side - Cart & Login */}
         <div className="flex items-center space-x-4">
           <button className="flex items-center text-black hover:text-gray-600">
-            <FiShoppingCart className="text-xl" />
+            <Link href={"./cart"}> <FiShoppingCart className="text-xl" /></Link>
+           
           </button>
           <button className="flex items-center text-black hover:text-gray-600">
             <FiUser className="text-xl" />
