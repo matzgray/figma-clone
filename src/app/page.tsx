@@ -24,7 +24,7 @@ import cumtomer3 from "../../public/Frame 62 (1).png"
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-wrap w-[100%] my-3 border-2  bg-gray-100">
+      <div className="flex flex-wrap w-[100%] my-3 border-2  bg-[#F2F0F1]">
 
         <div className="w-[80%] md:w-[40%]  pl-[5%] pt-[5%]">
           <h1 className="text-2xl sm:text-6xl  py-4 font-extrabold">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
