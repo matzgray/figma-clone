@@ -14,8 +14,8 @@ import ProductCard from '@/components/product'
 const ProductDetail = () => {
   return (
     <div>
-      <div className='flex flex-wrap px-20 gap-6 justify-around my-10'>
-        <div className='flex flex-row md:flex-col gap-2 order-2 md:order1 -ml-10 md:ml-0'>
+      <div className='flex flex-wrap md:px-20 gap-6 justify-around my-10'>
+        <div className='flex flex-row md:flex-col gap-2 order-2 md:order1 mx-auto md:ml-0'>
           <Image src={product1} alt='product' width={150} height={150}
             className='border-2 rounded-3xl  w-[111px] h-[106px]  md:w-[152px] md:h-[167px]'></Image>
           <Image src={product3} alt='product' width={150} height={150}
@@ -24,10 +24,10 @@ const ProductDetail = () => {
             className='border-2 rounded-3xl w-[111px] h-[106px]   md:w-[152px] md:h-[167px]'></Image>
         </div>
         <div>
-          <Image src={product1} alt='product width={600} height={600}'
-            className='border-2 rounded-3xl w-[358px] h-[290px] md:w-[444px] md:h-[530px]  md:order-2'></Image>
+          <Image src={product1} alt='product width={100} height={100}'
+            className='border-2 rounded-3xl w-[98%] h-[300px] md:w-[444px] md:h-[530px]  md:order-2'></Image>
         </div>
-        <div className='w-[98%]  md:w-[50%]   order-3 -ml-6 md:ml-0'>
+        <div className='w-[98%]  md:w-[50%]   order-3 mx-automd:ml-0'>
           <h1 className='font-[Integral CF] foun-bold text-[24px] md:text-[40px] my-4'>One Life Graphic T-shirt</h1>
           <div className='flex text-yellow-400 my-4'><FaStar /> <span><FaStar /></span><span><FaStar /></span><span><FaStar /></span><span><FaStar /></span></div>
           <p className='text-[satoshi] text-24 font-bold my-4'>$260 <span className='text-gray-500'> $300</span></p>
@@ -51,15 +51,15 @@ const ProductDetail = () => {
       </div>
 
 
-      <div className='flex px-20 text-xl justify-evenly mt-16 mb-6'>
+      <div className='flex px-2 md:px-20 text-xl justify-evenly mt-16 mb-6'>
         <p className='text-gray-500 hover:text-gray-950'>Product Details</p>
         <p className='text-gray-500 hover:text-gray-950'>Rating & Reviews</p>
         <p className='text-gray-500 hover:text-gray-950'>FAQs</p>
 
       </div>
       <hr />
-      <div className='flex justify-between -ml-14 md:mx-auto px-32 my-10'>
-        <div><h1 className='text-[18px] md:text-2xl font-bold '>All Reviews  <span className='text-gray-500'>451</span></h1></div>
+      <div className='flex justify-between px-2  mx-auto md:px-32 my-10'>
+        <div><h1 className='text-[18px] text-base md:text-2xl font-bold '>All Reviews  <span className='text-gray-500'>451</span></h1></div>
         <div className='flex gap-4 '>
           <div className='w-[30px] h-[30px] md:w-[50px] md:h-[50px] rounded-full bg-gray-300 hover:bg-gray-950'><GiSettingsKnobs className='text-black font-bold text-xl md:text-2xl m-auto mt-2 hover:text-white' /></div>
           <button className='w-[120px] md:h-[48px] rounded-3xl bg-gray-200 hover:bg-gray-950 hover:text-white hidden md:flex pl-8 pt-3'>Latest </button>
@@ -67,9 +67,9 @@ const ProductDetail = () => {
 
         </div>
       </div>
-      <div className='flex flex-wrap  mx-20 justify-between '>   <Reviews />    <Reviews />    <Reviews />    <Reviews />    <Reviews />    <Reviews /></div>
+      <div className='flex flex-wrap  md:mx-20 justify-between '>   <Reviews />    <Reviews />    <Reviews />    <Reviews />    <Reviews />    <Reviews /></div>
       <center><button className='border-2 border-gray-200 rounded-full h-[52px] w-[230px]  p-4 my-6'>Load More Reviews</button></center>
-      <center><h1 className='text-[48px] font-bold my-8'>YOU MIGHT ALSO LIKE</h1></center>
+      <center><h1 className='text-xl sm:text-[48px] font-bold my-8'>YOU MIGHT ALSO LIKE</h1></center>
 
       <ProductCard />
 

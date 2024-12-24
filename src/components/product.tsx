@@ -55,7 +55,7 @@ const ProductCard = () => {
   return (
     <div>
         
-        <div className='flex flex-wrap px-20 justify-around  '>
+        <div className='flex flex-wrap px-20 justify-around '>
             {
                 detailCard.map((data , index)=>{
                     return (

@@ -4,8 +4,8 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 
 const Reviews = () => {
   return (
-    <div className='border-2 border-gray-200 rounded-3xl w-[96%] md:w-[49%] p-8 my-4'>
-        <div className='flex text-yellow-400 my-4 text-2xl'>
+    <div className='border-2 border-gray-200 rounded-3xl w-[90%] md:w-[49%]  px-[5%] mx-auto  m:p-8 my-4'>
+        <div className='flex text-yellow-400 my-4 text-xl'>
           <FaStar /> <span><FaStar /></span><span><FaStar /></span><span><FaStar /></span><span><FaStar /></span>
         </div>
        <div className='flex gap-2 my-2'><span className='text-xl font-bold'>Samantha D.</span><span className=' '><IoCheckmarkCircle className='bg-green-800 text-white rounded-full mt-1' /></span></div> 
